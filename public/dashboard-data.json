@@ -1,0 +1,428 @@
+{
+  "kpis": {
+    "revenue": 9330542.05,
+    "profit": 985823.91,
+    "orders": 28000,
+    "aov": 333.23,
+    "avgDelivery": 46.0,
+    "cancelRate": 8.33,
+    "delayRate": 49.63,
+    "rating": 4.55
+  },
+  "monthly": [
+    {
+      "month": "Jan 2024",
+      "revenue": 385192.42,
+      "orders": 1209,
+      "profit": 37913.2
+    },
+    {
+      "month": "Feb 2024",
+      "revenue": 360649.83,
+      "orders": 1117,
+      "profit": 36328.5
+    },
+    {
+      "month": "Mar 2024",
+      "revenue": 414416.62,
+      "orders": 1261,
+      "profit": 43451.8
+    },
+    {
+      "month": "Apr 2024",
+      "revenue": 340261.47,
+      "orders": 1105,
+      "profit": 32987.37
+    },
+    {
+      "month": "May 2024",
+      "revenue": 363210.05,
+      "orders": 1141,
+      "profit": 37420.44
+    },
+    {
+      "month": "Jun 2024",
+      "revenue": 369057.47,
+      "orders": 1145,
+      "profit": 36741.29
+    },
+    {
+      "month": "Jul 2024",
+      "revenue": 387289.53,
+      "orders": 1190,
+      "profit": 40025.3
+    },
+    {
+      "month": "Aug 2024",
+      "revenue": 382852.45,
+      "orders": 1196,
+      "profit": 37756.96
+    },
+    {
+      "month": "Sep 2024",
+      "revenue": 384617.29,
+      "orders": 1179,
+      "profit": 40645.62
+    },
+    {
+      "month": "Oct 2024",
+      "revenue": 430144.73,
+      "orders": 1195,
+      "profit": 47008.7
+    },
+    {
+      "month": "Nov 2024",
+      "revenue": 403689.61,
+      "orders": 1106,
+      "profit": 45844.78
+    },
+    {
+      "month": "Dec 2024",
+      "revenue": 422830.44,
+      "orders": 1149,
+      "profit": 49991.82
+    },
+    {
+      "month": "Jan 2025",
+      "revenue": 388387.02,
+      "orders": 1186,
+      "profit": 40653.35
+    },
+    {
+      "month": "Feb 2025",
+      "revenue": 351873.45,
+      "orders": 1043,
+      "profit": 37679.39
+    },
+    {
+      "month": "Mar 2025",
+      "revenue": 389734.84,
+      "orders": 1183,
+      "profit": 40880.2
+    },
+    {
+      "month": "Apr 2025",
+      "revenue": 358383.99,
+      "orders": 1141,
+      "profit": 36922.55
+    },
+    {
+      "month": "May 2025",
+      "revenue": 396860.62,
+      "orders": 1229,
+      "profit": 39941.23
+    },
+    {
+      "month": "Jun 2025",
+      "revenue": 368182.43,
+      "orders": 1196,
+      "profit": 37007.19
+    },
+    {
+      "month": "Jul 2025",
+      "revenue": 392475.17,
+      "orders": 1203,
+      "profit": 42186.13
+    },
+    {
+      "month": "Aug 2025",
+      "revenue": 384787.93,
+      "orders": 1192,
+      "profit": 40727.68
+    },
+    {
+      "month": "Sep 2025",
+      "revenue": 372726.81,
+      "orders": 1123,
+      "profit": 37894.11
+    },
+    {
+      "month": "Oct 2025",
+      "revenue": 447101.23,
+      "orders": 1229,
+      "profit": 51687.85
+    },
+    {
+      "month": "Nov 2025",
+      "revenue": 411726.1,
+      "orders": 1128,
+      "profit": 46132.65
+    },
+    {
+      "month": "Dec 2025",
+      "revenue": 424090.55,
+      "orders": 1154,
+      "profit": 47995.8
+    }
+  ],
+  "city": [
+    {
+      "Delivery_City": "Delhi NCR",
+      "Revenue": 2122503.3,
+      "Orders": 6361,
+      "AvgDelivery": 46.0,
+      "DelayRate": 0.49
+    },
+    {
+      "Delivery_City": "Mumbai",
+      "Revenue": 1480442.48,
+      "Orders": 4463,
+      "AvgDelivery": 46.01,
+      "DelayRate": 0.5
+    },
+    {
+      "Delivery_City": "Bengaluru",
+      "Revenue": 1338342.83,
+      "Orders": 4015,
+      "AvgDelivery": 46.29,
+      "DelayRate": 0.51
+    },
+    {
+      "Delivery_City": "Hyderabad",
+      "Revenue": 992131.41,
+      "Orders": 2966,
+      "AvgDelivery": 45.47,
+      "DelayRate": 0.49
+    },
+    {
+      "Delivery_City": "Pune",
+      "Revenue": 903482.91,
+      "Orders": 2719,
+      "AvgDelivery": 46.02,
+      "DelayRate": 0.49
+    },
+    {
+      "Delivery_City": "Chennai",
+      "Revenue": 775435.34,
+      "Orders": 2332,
+      "AvgDelivery": 46.03,
+      "DelayRate": 0.5
+    },
+    {
+      "Delivery_City": "Kolkata",
+      "Revenue": 611234.29,
+      "Orders": 1849,
+      "AvgDelivery": 46.34,
+      "DelayRate": 0.51
+    },
+    {
+      "Delivery_City": "Ahmedabad",
+      "Revenue": 474021.93,
+      "Orders": 1414,
+      "AvgDelivery": 45.96,
+      "DelayRate": 0.5
+    },
+    {
+      "Delivery_City": "Jaipur",
+      "Revenue": 352338.95,
+      "Orders": 1079,
+      "AvgDelivery": 45.83,
+      "DelayRate": 0.5
+    },
+    {
+      "Delivery_City": "Lucknow",
+      "Revenue": 280608.61,
+      "Orders": 802,
+      "AvgDelivery": 45.79,
+      "DelayRate": 0.46
+    }
+  ],
+  "cuisine": [
+    {
+      "Cuisine": "North Indian",
+      "Revenue": 1373120.35,
+      "Orders": 4177,
+      "CancelRate": 0.08
+    },
+    {
+      "Cuisine": "Biryani",
+      "Revenue": 1059057.01,
+      "Orders": 3187,
+      "CancelRate": 0.08
+    },
+    {
+      "Cuisine": "Pizza",
+      "Revenue": 1043166.38,
+      "Orders": 3139,
+      "CancelRate": 0.08
+    },
+    {
+      "Cuisine": "Chinese",
+      "Revenue": 886791.16,
+      "Orders": 2654,
+      "CancelRate": 0.08
+    },
+    {
+      "Cuisine": "South Indian",
+      "Revenue": 858008.78,
+      "Orders": 2552,
+      "CancelRate": 0.09
+    },
+    {
+      "Cuisine": "Desserts",
+      "Revenue": 754886.75,
+      "Orders": 2244,
+      "CancelRate": 0.09
+    },
+    {
+      "Cuisine": "Mughlai",
+      "Revenue": 710010.41,
+      "Orders": 2123,
+      "CancelRate": 0.09
+    },
+    {
+      "Cuisine": "Healthy",
+      "Revenue": 703970.18,
+      "Orders": 2137,
+      "CancelRate": 0.09
+    },
+    {
+      "Cuisine": "Burger",
+      "Revenue": 562407.75,
+      "Orders": 1687,
+      "CancelRate": 0.09
+    },
+    {
+      "Cuisine": "Street Food",
+      "Revenue": 550104.98,
+      "Orders": 1646,
+      "CancelRate": 0.08
+    }
+  ],
+  "traffic": [
+    {
+      "Traffic_Level": "High",
+      "AvgDelivery": 51.3,
+      "AvgDelay": 8.39,
+      "Orders": 6584
+    },
+    {
+      "Traffic_Level": "Low",
+      "AvgDelivery": 39.25,
+      "AvgDelay": 2.56,
+      "Orders": 7290
+    },
+    {
+      "Traffic_Level": "Medium",
+      "AvgDelivery": 44.31,
+      "AvgDelay": 4.5,
+      "Orders": 11828
+    },
+    {
+      "Traffic_Level": "Severe",
+      "AvgDelivery": 60.9,
+      "AvgDelay": 16.22,
+      "Orders": 2298
+    }
+  ],
+  "weather": [
+    {
+      "Weather": "Clear",
+      "AvgDelivery": 43.6,
+      "AvgRating": 4.6,
+      "Orders": 16430
+    },
+    {
+      "Weather": "Cloudy",
+      "AvgDelivery": 45.56,
+      "AvgRating": 4.54,
+      "Orders": 6014
+    },
+    {
+      "Weather": "Fog",
+      "AvgDelivery": 50.41,
+      "AvgRating": 4.47,
+      "Orders": 1021
+    },
+    {
+      "Weather": "Rain",
+      "AvgDelivery": 52.62,
+      "AvgRating": 4.44,
+      "Orders": 3661
+    },
+    {
+      "Weather": "Storm",
+      "AvgDelivery": 61.11,
+      "AvgRating": 4.22,
+      "Orders": 874
+    }
+  ],
+  "topRestaurants": [
+    {
+      "Restaurant_Name": "Kebab Circuit 41",
+      "Revenue": 44315.47,
+      "Orders": 133
+    },
+    {
+      "Restaurant_Name": "Sweet Loop 46",
+      "Revenue": 43291.59,
+      "Orders": 128
+    },
+    {
+      "Restaurant_Name": "Kebab Circuit 96",
+      "Revenue": 43149.47,
+      "Orders": 127
+    },
+    {
+      "Restaurant_Name": "Green Fork 6",
+      "Revenue": 40538.67,
+      "Orders": 110
+    },
+    {
+      "Restaurant_Name": "Sweet Loop 19",
+      "Revenue": 40322.33,
+      "Orders": 118
+    },
+    {
+      "Restaurant_Name": "Urban Tadka 76",
+      "Revenue": 37830.68,
+      "Orders": 109
+    },
+    {
+      "Restaurant_Name": "Midnight Masala 2",
+      "Revenue": 37741.26,
+      "Orders": 115
+    },
+    {
+      "Restaurant_Name": "Neon Bites 84",
+      "Revenue": 37727.5,
+      "Orders": 109
+    },
+    {
+      "Restaurant_Name": "Spice Grid 72",
+      "Revenue": 37325.89,
+      "Orders": 117
+    },
+    {
+      "Restaurant_Name": "Cafe Nova 74",
+      "Revenue": 37109.22,
+      "Orders": 113
+    }
+  ],
+  "insights": [
+    {
+      "title": "Traffic is the biggest delivery risk",
+      "observation": "Severe traffic produces the highest delivery duration and delay rate.",
+      "impact": "Late deliveries reduce customer ratings and increase refund/cancellation risk.",
+      "recommendation": "Use traffic-aware ETA buffers and dynamic partner positioning during dinner peaks."
+    },
+    {
+      "title": "Weekend demand improves monetization",
+      "observation": "Weekend orders show stronger AOV and volume patterns.",
+      "impact": "Promotions can lift revenue without requiring proportional order growth.",
+      "recommendation": "Launch premium combos and family bundles on weekends."
+    },
+    {
+      "title": "Cuisine mix reveals growth pockets",
+      "observation": "Top cuisines drive a disproportionate share of revenue.",
+      "impact": "Restaurant onboarding and ad placements should prioritize high-performing categories.",
+      "recommendation": "Build cuisine-level campaigns and improve supply density in under-served cities."
+    },
+    {
+      "title": "Weather disruption hurts experience",
+      "observation": "Rain/storm/fog orders show higher delivery time and lower ratings.",
+      "impact": "Bad-weather ETA misses create support load and churn risk.",
+      "recommendation": "Add proactive notifications and surge incentives for partners."
+    }
+  ]
+}
