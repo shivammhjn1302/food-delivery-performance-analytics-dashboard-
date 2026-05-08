@@ -1,0 +1,851 @@
+Restaurant_ID,Restaurant_Name,Cuisine,Average_Preparation_Time,Rating,Total_Orders,Revenue
+R20000,Curry Cloud 0,Desserts,22.7,4.5,35,13366.24
+R20001,Sweet Loop 1,Healthy,16.6,3.8,35,12281.5
+R20002,Midnight Masala 2,Street Food,21.2,4.2,32,10311.46
+R20003,Green Fork 3,Street Food,19.5,4.3,29,10460.39
+R20004,Midnight Masala 4,Desserts,10.7,4.1,35,10350.02
+R20005,Noodle Nexus 5,Pizza,21.9,3.6,34,12348.38
+R20006,Noodle Nexus 6,North Indian,19.6,4.2,35,9754.22
+R20007,Urban Tadka 7,Desserts,14.7,3.9,31,10648.94
+R20008,Midnight Masala 8,Chinese,16.5,4.7,24,7122.39
+R20009,Cafe Nova 9,Biryani,16.6,4.5,33,9287.28
+R20010,Bowl Theory 10,Biryani,17.5,3.9,27,8754.3
+R20011,Green Fork 11,Street Food,29.6,4.7,35,12313.46
+R20012,Cafe Nova 12,North Indian,31.5,4.2,45,12783.27
+R20013,Bowl Theory 13,Mughlai,7.0,3.4,45,16663.56
+R20014,Sweet Loop 14,Continental,21.9,4.0,30,10415.35
+R20015,Spice Grid 15,Desserts,24.7,4.7,38,14047.17
+R20016,Pizza Pulse 16,North Indian,17.7,3.7,32,10479.52
+R20017,Urban Tadka 17,Mughlai,24.6,4.0,45,15181.97
+R20018,Spice Grid 18,Desserts,28.9,3.5,28,8614.5
+R20019,Sweet Loop 19,Pizza,10.8,3.6,43,15004.2
+R20020,Urban Tadka 20,Burger,19.8,3.7,32,11198.77
+R20021,Cafe Nova 21,North Indian,30.7,3.6,32,9849.49
+R20022,Neon Bites 22,Desserts,11.6,3.8,32,11232.3
+R20023,Noodle Nexus 23,Continental,18.3,4.7,35,11400.74
+R20024,Curry Cloud 24,South Indian,16.3,4.0,34,10449.01
+R20025,Midnight Masala 25,Street Food,25.3,4.3,32,10637.27
+R20026,Burger Byte 26,Chinese,26.1,4.5,34,11977.77
+R20027,Kebab Circuit 27,Continental,20.0,3.6,29,11017.54
+R20028,Dosa Dock 28,Healthy,19.2,3.7,15,4715.21
+R20029,Spice Grid 29,North Indian,8.7,4.3,36,11973.8
+R20030,Curry Cloud 30,Street Food,27.5,3.8,36,12889.48
+R20031,Curry Cloud 31,Street Food,16.9,4.3,27,9800.09
+R20032,Burger Byte 32,Pizza,18.1,4.7,30,10258.72
+R20033,Dosa Dock 33,Mughlai,24.8,3.5,32,12144.11
+R20034,Urban Tadka 34,Biryani,20.2,3.9,30,10464.36
+R20035,Sweet Loop 35,North Indian,25.0,4.0,32,10812.01
+R20036,Burger Byte 36,Biryani,22.6,3.8,22,7798.76
+R20037,Midnight Masala 37,South Indian,20.2,3.8,33,11549.65
+R20038,Midnight Masala 38,North Indian,20.9,3.9,21,5994.23
+R20039,Neon Bites 39,Biryani,12.3,4.0,19,5646.38
+R20040,Sweet Loop 40,Street Food,18.1,4.1,32,10097.37
+R20041,Spice Grid 41,South Indian,25.5,4.4,15,4934.12
+R20042,Dosa Dock 42,Mughlai,13.6,4.0,22,7626.4
+R20043,Green Fork 43,Biryani,14.7,4.5,37,12149.37
+R20044,Spice Grid 44,North Indian,13.7,3.8,42,14230.79
+R20045,Urban Tadka 45,Mughlai,19.9,3.6,42,13133.74
+R20046,Sweet Loop 46,Pizza,27.4,3.9,39,12581.43
+R20047,Green Fork 47,Chinese,22.3,4.2,28,8463.56
+R20048,Neon Bites 48,Cafe,7.0,4.4,31,9627.2
+R20049,Bowl Theory 49,Pizza,22.9,4.6,35,11763.55
+R20050,Kebab Circuit 50,South Indian,16.3,4.2,28,9211.58
+R20051,Dosa Dock 51,Desserts,22.1,4.3,23,7073.08
+R20052,Burger Byte 52,North Indian,18.1,4.6,31,10526.62
+R20053,Bowl Theory 53,Healthy,13.8,3.8,34,11592.25
+R20054,Dosa Dock 54,Chinese,18.6,4.0,45,13759.21
+R20055,Spice Grid 55,Biryani,16.4,4.9,32,10707.67
+R20056,Noodle Nexus 56,Chinese,20.8,4.4,31,11677.46
+R20057,Dosa Dock 57,South Indian,13.7,4.2,38,12247.89
+R20058,Pizza Pulse 58,Desserts,12.3,4.4,32,11158.53
+R20059,Pizza Pulse 59,Street Food,23.4,3.5,36,12108.73
+R20060,Pizza Pulse 60,Healthy,25.7,3.8,32,9794.78
+R20061,Dragon Wok 61,Chinese,22.5,3.7,38,14351.18
+R20062,Urban Tadka 62,Street Food,15.1,4.2,37,13016.11
+R20063,Kebab Circuit 63,Mughlai,14.6,3.9,26,9935.24
+R20064,Urban Tadka 64,North Indian,14.9,4.1,37,13528.2
+R20065,Midnight Masala 65,North Indian,24.3,3.9,41,13672.46
+R20066,Noodle Nexus 66,Biryani,14.0,3.4,23,7757.88
+R20067,Dosa Dock 67,North Indian,24.3,4.4,33,10939.83
+R20068,Noodle Nexus 68,South Indian,22.8,3.4,32,13361.83
+R20069,Kebab Circuit 69,Pizza,26.4,3.8,23,7021.43
+R20070,Sweet Loop 70,Cafe,25.4,3.6,35,13240.11
+R20071,Neon Bites 71,South Indian,22.3,3.7,36,12077.79
+R20072,Burger Byte 72,Biryani,10.2,4.1,31,11763.43
+R20073,Pizza Pulse 73,Cafe,22.7,4.5,37,12157.18
+R20074,Spice Grid 74,South Indian,19.7,3.5,32,9982.61
+R20075,Neon Bites 75,North Indian,16.8,3.8,23,7288.24
+R20076,Urban Tadka 76,North Indian,27.2,3.4,40,15840.35
+R20077,Spice Grid 77,Desserts,18.1,3.8,35,11410.39
+R20078,Dragon Wok 78,South Indian,15.8,4.1,39,12398.88
+R20079,Spice Grid 79,Burger,25.7,4.3,40,13531.75
+R20080,Green Fork 80,Mughlai,16.6,3.2,26,8099.0
+R20081,Dosa Dock 81,Desserts,15.5,4.3,35,12641.23
+R20082,Curry Cloud 82,Continental,12.2,3.7,34,11938.99
+R20083,Neon Bites 83,Healthy,14.1,3.6,33,10425.86
+R20084,Neon Bites 84,Desserts,14.6,4.1,26,9480.11
+R20085,Noodle Nexus 85,North Indian,22.7,4.3,32,10772.37
+R20086,Pizza Pulse 86,South Indian,12.9,4.0,33,10509.43
+R20087,Sweet Loop 87,Chinese,7.9,3.6,26,8854.89
+R20088,Urban Tadka 88,South Indian,20.8,4.0,33,10108.56
+R20089,Spice Grid 89,Chinese,15.2,3.8,44,13636.0
+R20090,Burger Byte 90,Burger,18.9,4.3,31,9767.73
+R20091,Dosa Dock 91,Chinese,26.7,4.5,27,8433.8
+R20092,Neon Bites 92,Burger,19.4,4.4,39,12651.16
+R20093,Spice Grid 93,Chinese,28.1,4.0,38,12765.75
+R20094,Bowl Theory 94,Continental,18.6,4.5,37,13221.42
+R20095,Neon Bites 95,Chinese,25.0,3.7,28,10707.14
+R20096,Curry Cloud 96,Healthy,15.7,4.7,22,6602.01
+R20097,Curry Cloud 0,Burger,19.6,3.7,27,9506.46
+R20098,Spice Grid 1,Chinese,13.4,3.3,40,12938.15
+R20099,Dragon Wok 2,Mughlai,14.1,4.6,28,10744.29
+R20100,Pizza Pulse 3,Street Food,17.7,3.8,29,8347.33
+R20101,Spice Grid 4,Healthy,11.0,4.1,26,7299.44
+R20102,Kebab Circuit 5,Street Food,20.0,3.7,30,10421.18
+R20103,Green Fork 6,Chinese,17.2,4.9,31,11621.72
+R20104,Kebab Circuit 7,Street Food,20.4,4.7,20,8343.93
+R20105,Noodle Nexus 8,Continental,11.1,4.6,31,12339.81
+R20106,Kebab Circuit 9,Healthy,23.2,4.1,40,13623.0
+R20107,Dosa Dock 10,Mughlai,29.2,4.4,35,11684.9
+R20108,Curry Cloud 11,Healthy,27.9,4.0,33,9498.17
+R20109,Cafe Nova 12,South Indian,30.4,4.5,35,12492.54
+R20110,Sweet Loop 13,Burger,19.3,3.9,30,10256.75
+R20111,Sweet Loop 14,Chinese,16.9,4.7,33,10964.85
+R20112,Spice Grid 15,Desserts,21.9,3.9,44,15651.94
+R20113,Sweet Loop 16,Pizza,17.6,3.9,35,11949.77
+R20114,Sweet Loop 17,Healthy,8.6,3.9,43,14172.68
+R20115,Burger Byte 18,South Indian,23.9,4.1,36,12661.55
+R20116,Dosa Dock 19,Pizza,17.6,3.9,30,10472.39
+R20117,Green Fork 20,Biryani,10.2,4.2,29,10251.4
+R20118,Urban Tadka 21,Biryani,16.0,3.9,42,13905.11
+R20119,Burger Byte 22,Desserts,17.7,4.4,27,9125.86
+R20120,Sweet Loop 23,Chinese,19.1,4.6,39,13461.85
+R20121,Bowl Theory 24,North Indian,19.1,4.1,34,10766.69
+R20122,Bowl Theory 25,Pizza,27.2,4.9,32,10440.6
+R20123,Spice Grid 26,Chinese,11.3,4.5,37,12085.74
+R20124,Midnight Masala 27,Biryani,18.1,4.9,33,11119.38
+R20125,Pizza Pulse 28,Pizza,13.7,4.0,32,10212.98
+R20126,Curry Cloud 29,Desserts,26.5,3.4,29,9780.38
+R20127,Neon Bites 30,Healthy,15.6,3.8,30,9953.43
+R20128,Kebab Circuit 31,Street Food,16.9,3.8,28,9049.17
+R20129,Spice Grid 32,North Indian,25.3,3.7,23,8156.86
+R20130,Sweet Loop 33,Pizza,26.9,3.2,31,9473.54
+R20131,Burger Byte 34,North Indian,27.8,4.4,27,8514.28
+R20132,Dragon Wok 35,Burger,9.1,3.3,35,11981.28
+R20133,Curry Cloud 36,North Indian,21.9,4.4,34,9464.18
+R20134,Sweet Loop 37,Biryani,20.6,4.9,30,10849.83
+R20135,Neon Bites 38,Burger,18.7,3.8,36,12163.05
+R20136,Bowl Theory 39,Pizza,19.4,4.2,35,11313.29
+R20137,Midnight Masala 40,South Indian,26.7,3.9,42,14316.16
+R20138,Kebab Circuit 41,Desserts,25.2,4.4,24,8102.5
+R20139,Green Fork 42,Mughlai,24.4,3.6,29,9808.34
+R20140,Kebab Circuit 43,Chinese,20.2,4.0,38,12703.14
+R20141,Dragon Wok 44,Pizza,32.6,4.5,49,17019.68
+R20142,Sweet Loop 45,South Indian,16.6,4.0,41,14748.36
+R20143,Sweet Loop 46,North Indian,9.3,3.4,46,16782.39
+R20144,Neon Bites 47,North Indian,17.4,4.5,31,11418.28
+R20145,Dosa Dock 48,Chinese,19.3,3.6,36,11660.28
+R20146,Cafe Nova 49,Biryani,26.8,4.1,35,12235.05
+R20147,Kebab Circuit 50,North Indian,15.9,4.3,37,12694.62
+R20148,Bowl Theory 51,Desserts,21.9,4.1,32,11160.27
+R20149,Urban Tadka 52,Mughlai,10.1,4.9,41,11267.55
+R20150,Midnight Masala 53,Biryani,25.5,4.3,34,10798.48
+R20151,Pizza Pulse 54,Burger,19.4,4.0,26,8572.53
+R20152,Noodle Nexus 55,Cafe,17.3,4.3,30,10798.85
+R20153,Kebab Circuit 56,Pizza,31.8,4.1,41,12379.23
+R20154,Green Fork 57,Healthy,25.4,4.1,28,9007.52
+R20155,Spice Grid 58,Biryani,12.8,4.1,24,8090.67
+R20156,Sweet Loop 59,Street Food,18.3,3.9,35,12376.05
+R20157,Urban Tadka 60,North Indian,35.4,4.1,39,12349.3
+R20158,Dosa Dock 61,Pizza,30.9,3.9,29,8127.31
+R20159,Pizza Pulse 62,Cafe,24.5,3.3,31,10824.94
+R20160,Green Fork 63,Desserts,7.9,4.5,35,12656.6
+R20161,Cafe Nova 64,Biryani,27.0,3.8,28,9145.37
+R20162,Dragon Wok 65,Mughlai,15.2,4.1,28,10191.96
+R20163,Burger Byte 66,Continental,26.9,3.8,22,8398.01
+R20164,Cafe Nova 67,South Indian,14.7,3.8,37,13127.76
+R20165,Cafe Nova 68,Biryani,21.9,3.7,33,8952.54
+R20166,Dosa Dock 69,Biryani,15.2,4.4,42,13181.0
+R20167,Cafe Nova 70,Street Food,16.8,4.5,40,12090.29
+R20168,Sweet Loop 71,Biryani,22.7,4.1,37,12113.71
+R20169,Spice Grid 72,Pizza,11.1,3.8,42,14581.08
+R20170,Pizza Pulse 73,Biryani,33.2,3.4,37,12005.32
+R20171,Noodle Nexus 74,North Indian,12.8,4.4,41,13693.37
+R20172,Midnight Masala 75,South Indian,12.5,3.8,25,8454.36
+R20173,Green Fork 76,Chinese,22.8,3.6,25,7503.33
+R20174,Dosa Dock 77,North Indian,26.8,4.1,26,8258.54
+R20175,Midnight Masala 78,Biryani,17.1,3.9,38,11329.46
+R20176,Pizza Pulse 79,North Indian,12.6,3.5,41,11968.96
+R20177,Burger Byte 80,North Indian,13.5,3.5,33,10657.9
+R20178,Neon Bites 81,Biryani,12.8,4.2,32,11081.83
+R20179,Midnight Masala 82,Healthy,20.8,3.8,34,10752.4
+R20180,Cafe Nova 83,North Indian,18.6,4.2,22,6596.5
+R20181,Noodle Nexus 84,Pizza,21.6,4.1,34,11656.39
+R20182,Curry Cloud 85,Burger,21.2,4.4,17,6115.47
+R20183,Pizza Pulse 86,Healthy,23.9,3.7,30,10551.82
+R20184,Sweet Loop 87,Desserts,16.5,4.1,28,10200.96
+R20185,Pizza Pulse 88,Cafe,14.6,4.3,41,15225.9
+R20186,Green Fork 89,Pizza,19.9,3.8,32,10186.72
+R20187,Noodle Nexus 90,North Indian,18.7,4.5,29,11418.65
+R20188,Dragon Wok 91,North Indian,20.5,3.4,41,12067.74
+R20189,Kebab Circuit 92,North Indian,14.7,3.7,34,10782.43
+R20190,Noodle Nexus 93,Cafe,22.9,3.4,36,12797.65
+R20191,Urban Tadka 94,Burger,11.9,3.8,34,10962.54
+R20192,Bowl Theory 95,Mughlai,16.4,4.0,30,9300.66
+R20193,Kebab Circuit 96,Cafe,25.8,4.4,33,11787.38
+R20194,Urban Tadka 0,Mughlai,12.2,4.0,33,10385.16
+R20195,Sweet Loop 1,Chinese,25.3,3.8,32,10872.98
+R20196,Bowl Theory 2,Continental,10.5,3.5,27,11079.04
+R20197,Pizza Pulse 3,Chinese,9.5,3.6,30,8914.79
+R20198,Green Fork 4,North Indian,10.0,4.2,36,11146.67
+R20199,Burger Byte 5,South Indian,19.7,4.4,30,10729.82
+R20200,Sweet Loop 6,Street Food,23.4,3.9,27,9393.5
+R20201,Kebab Circuit 7,Mughlai,26.8,4.5,28,8122.29
+R20202,Burger Byte 8,Chinese,26.3,3.7,22,8441.12
+R20203,Burger Byte 9,Continental,24.2,3.9,40,12290.97
+R20204,Green Fork 10,South Indian,14.0,3.9,38,10786.59
+R20205,Curry Cloud 11,Desserts,14.0,4.6,29,10193.67
+R20206,Spice Grid 12,Pizza,23.7,4.1,37,12151.18
+R20207,Burger Byte 13,Biryani,27.5,3.4,38,11315.48
+R20208,Sweet Loop 14,Pizza,12.8,4.4,31,9745.83
+R20209,Kebab Circuit 15,Continental,26.8,4.8,36,12365.73
+R20210,Burger Byte 16,Cafe,7.5,4.0,28,9245.01
+R20211,Sweet Loop 17,Pizza,21.3,3.7,35,11627.69
+R20212,Burger Byte 18,Biryani,18.4,4.4,32,11238.18
+R20213,Urban Tadka 19,North Indian,17.8,4.8,30,9554.71
+R20214,Midnight Masala 20,Healthy,19.2,4.4,30,8483.52
+R20215,Spice Grid 21,South Indian,13.9,3.4,29,9550.9
+R20216,Cafe Nova 22,Burger,21.7,4.3,36,12735.55
+R20217,Curry Cloud 23,North Indian,19.4,4.2,37,12974.85
+R20218,Pizza Pulse 24,North Indian,24.6,3.7,26,8226.68
+R20219,Cafe Nova 25,Street Food,28.5,4.5,28,9445.28
+R20220,Curry Cloud 26,Burger,19.8,4.2,35,10758.42
+R20221,Pizza Pulse 27,Biryani,14.1,4.5,36,12451.69
+R20222,Noodle Nexus 28,Biryani,12.2,3.6,18,7783.95
+R20223,Spice Grid 29,Biryani,29.2,4.2,32,11245.54
+R20224,Cafe Nova 30,North Indian,28.4,3.7,28,8845.0
+R20225,Urban Tadka 31,North Indian,24.3,4.1,40,13726.75
+R20226,Sweet Loop 32,Healthy,19.4,4.6,31,11280.72
+R20227,Spice Grid 33,Pizza,23.9,3.5,30,8927.22
+R20228,Green Fork 34,Chinese,26.8,3.5,34,11881.45
+R20229,Pizza Pulse 35,South Indian,15.3,4.4,37,12745.24
+R20230,Bowl Theory 36,Pizza,19.2,4.0,32,10066.66
+R20231,Dosa Dock 37,South Indian,12.4,4.5,25,8467.86
+R20232,Curry Cloud 38,Continental,18.2,3.7,33,11398.0
+R20233,Urban Tadka 39,Biryani,28.3,4.1,31,9432.96
+R20234,Midnight Masala 40,Mughlai,25.5,4.3,35,11842.88
+R20235,Kebab Circuit 41,Pizza,19.8,4.1,31,9048.14
+R20236,Neon Bites 42,Biryani,7.0,3.4,39,12743.78
+R20237,Curry Cloud 43,North Indian,15.1,4.9,45,16669.64
+R20238,Burger Byte 44,Desserts,19.6,4.1,30,10696.09
+R20239,Curry Cloud 45,Chinese,17.7,3.5,28,8304.31
+R20240,Dragon Wok 46,Healthy,19.2,4.2,26,9023.37
+R20241,Green Fork 47,North Indian,20.5,4.2,32,9719.87
+R20242,Midnight Masala 48,Burger,15.8,4.4,34,12055.93
+R20243,Dragon Wok 49,North Indian,19.0,4.4,25,8070.97
+R20244,Pizza Pulse 50,Biryani,18.1,4.0,26,9615.32
+R20245,Dosa Dock 51,Burger,14.8,3.4,31,8587.3
+R20246,Bowl Theory 52,North Indian,30.1,4.2,23,7214.72
+R20247,Burger Byte 53,Chinese,16.1,3.4,37,11865.33
+R20248,Green Fork 54,Burger,7.0,4.5,29,8507.79
+R20249,Urban Tadka 55,Healthy,29.7,3.8,34,11043.89
+R20250,Sweet Loop 56,Desserts,13.9,4.3,38,11884.45
+R20251,Green Fork 57,Biryani,24.4,3.8,28,10196.75
+R20252,Spice Grid 58,North Indian,14.9,3.9,42,11829.14
+R20253,Cafe Nova 59,Chinese,22.4,3.7,33,9958.23
+R20254,Burger Byte 60,Biryani,18.7,4.3,38,14131.22
+R20255,Kebab Circuit 61,Pizza,25.0,3.8,30,9815.75
+R20256,Midnight Masala 62,Pizza,17.7,4.3,33,10334.36
+R20257,Bowl Theory 63,Chinese,15.1,3.8,33,11480.52
+R20258,Midnight Masala 64,South Indian,20.5,4.0,24,7974.11
+R20259,Urban Tadka 65,North Indian,16.7,4.1,38,11916.86
+R20260,Dragon Wok 66,Pizza,7.4,4.1,31,8723.86
+R20261,Noodle Nexus 67,Pizza,15.4,3.7,36,11910.0
+R20262,Sweet Loop 68,Biryani,36.2,4.3,40,11892.27
+R20263,Urban Tadka 69,Mughlai,8.1,3.9,42,13897.31
+R20264,Dosa Dock 70,Biryani,20.4,4.3,39,13326.69
+R20265,Neon Bites 71,Biryani,17.5,4.0,29,9572.82
+R20266,Spice Grid 72,Continental,30.0,4.3,39,11917.19
+R20267,Kebab Circuit 73,Chinese,12.3,3.9,39,12874.06
+R20268,Midnight Masala 74,Biryani,19.6,3.7,33,12047.43
+R20269,Cafe Nova 75,Healthy,23.1,4.2,35,11558.61
+R20270,Urban Tadka 76,Desserts,17.9,3.9,33,10488.77
+R20271,Neon Bites 77,Street Food,14.4,4.6,26,9564.31
+R20272,Cafe Nova 78,Continental,18.9,4.1,25,8392.61
+R20273,Bowl Theory 79,Desserts,17.1,3.5,23,7894.85
+R20274,Spice Grid 80,Biryani,17.1,3.8,26,8191.42
+R20275,Sweet Loop 81,South Indian,24.6,3.7,27,11004.69
+R20276,Cafe Nova 82,North Indian,21.4,4.5,47,14845.75
+R20277,Noodle Nexus 83,South Indian,22.3,4.3,29,10847.07
+R20278,Dosa Dock 84,Street Food,21.0,4.0,35,10402.94
+R20279,Burger Byte 85,North Indian,24.8,4.2,40,15010.31
+R20280,Cafe Nova 86,Continental,26.8,4.0,33,11778.07
+R20281,Sweet Loop 87,South Indian,17.3,4.4,38,12536.71
+R20282,Kebab Circuit 88,Biryani,23.9,4.2,31,12601.24
+R20283,Midnight Masala 89,Continental,11.2,4.3,46,15653.78
+R20284,Noodle Nexus 90,South Indian,7.0,4.0,39,13628.29
+R20285,Cafe Nova 91,Chinese,30.0,3.8,37,12248.82
+R20286,Noodle Nexus 92,South Indian,17.0,4.3,23,7380.95
+R20287,Dosa Dock 93,Biryani,20.5,4.6,43,13994.16
+R20288,Dragon Wok 94,North Indian,11.6,4.5,39,12378.4
+R20289,Green Fork 95,Desserts,11.4,4.7,36,11949.36
+R20290,Kebab Circuit 96,Continental,14.7,4.1,30,10340.75
+R20291,Sweet Loop 0,Desserts,22.9,3.7,28,8911.59
+R20292,Noodle Nexus 1,Mughlai,15.9,3.7,20,6222.68
+R20293,Midnight Masala 2,Mughlai,17.0,4.6,31,10067.64
+R20294,Urban Tadka 3,North Indian,14.5,3.3,40,13739.63
+R20295,Urban Tadka 4,Healthy,26.0,4.6,29,8925.48
+R20296,Dosa Dock 5,Healthy,24.2,3.8,25,7866.83
+R20297,Green Fork 6,Pizza,16.1,4.8,34,13134.0
+R20298,Curry Cloud 7,Chinese,23.1,4.0,33,10797.06
+R20299,Spice Grid 8,Healthy,17.5,4.3,36,13585.17
+R20300,Spice Grid 9,Cafe,17.0,4.9,44,14357.36
+R20301,Cafe Nova 10,Cafe,18.7,3.9,29,8432.0
+R20302,Midnight Masala 11,South Indian,22.9,3.9,35,11610.84
+R20303,Burger Byte 12,Mughlai,13.6,3.8,36,13019.77
+R20304,Neon Bites 13,South Indian,22.0,3.7,30,10059.81
+R20305,Neon Bites 14,Continental,34.0,3.9,33,12195.68
+R20306,Burger Byte 15,Desserts,20.1,3.8,46,17404.66
+R20307,Cafe Nova 16,Street Food,19.2,3.6,37,13378.98
+R20308,Noodle Nexus 17,Cafe,18.5,4.0,38,10752.78
+R20309,Burger Byte 18,Pizza,21.9,4.2,33,10367.23
+R20310,Kebab Circuit 19,Cafe,9.3,3.7,36,10398.51
+R20311,Green Fork 20,Desserts,29.2,4.0,35,12670.84
+R20312,Dragon Wok 21,Biryani,24.9,4.6,32,9974.71
+R20313,Bowl Theory 22,North Indian,15.1,3.5,27,7475.56
+R20314,Green Fork 23,Desserts,19.2,4.8,36,10287.17
+R20315,Spice Grid 24,Biryani,15.7,3.8,38,13646.91
+R20316,Midnight Masala 25,Biryani,20.8,4.1,33,9710.53
+R20317,Neon Bites 26,Burger,19.4,4.5,37,12337.76
+R20318,Kebab Circuit 27,North Indian,20.4,4.7,33,11553.06
+R20319,Midnight Masala 28,Chinese,12.8,4.2,40,13850.6
+R20320,Pizza Pulse 29,Mughlai,16.1,3.8,38,14607.56
+R20321,Kebab Circuit 30,North Indian,25.9,3.8,38,12687.18
+R20322,Midnight Masala 31,Burger,15.8,3.8,29,9236.33
+R20323,Pizza Pulse 32,Biryani,7.0,4.8,25,7728.94
+R20324,Burger Byte 33,Continental,18.1,3.9,39,16311.91
+R20325,Neon Bites 34,Chinese,33.5,4.2,37,13358.02
+R20326,Curry Cloud 35,Mughlai,24.1,3.7,31,10693.66
+R20327,Curry Cloud 36,Healthy,15.5,3.6,37,11201.66
+R20328,Cafe Nova 37,Continental,18.7,4.1,33,8854.58
+R20329,Neon Bites 38,South Indian,23.1,3.9,32,10924.75
+R20330,Burger Byte 39,South Indian,8.5,4.0,40,14894.84
+R20331,Pizza Pulse 40,North Indian,13.9,3.5,31,9193.1
+R20332,Urban Tadka 41,South Indian,21.4,4.0,31,10082.62
+R20333,Noodle Nexus 42,South Indian,28.6,4.6,42,12605.2
+R20334,Dragon Wok 43,Burger,16.4,3.7,39,11934.13
+R20335,Kebab Circuit 44,North Indian,28.4,4.4,37,11452.7
+R20336,Cafe Nova 45,South Indian,14.5,2.8,40,13998.6
+R20337,Midnight Masala 46,Chinese,7.0,3.7,34,9103.56
+R20338,Pizza Pulse 47,Burger,23.5,3.3,29,9132.86
+R20339,Curry Cloud 48,Desserts,22.2,4.5,36,10685.25
+R20340,Green Fork 49,Chinese,23.4,4.4,24,7459.04
+R20341,Burger Byte 50,South Indian,23.2,3.7,34,10574.29
+R20342,Dosa Dock 51,Chinese,20.2,4.2,38,13257.85
+R20343,Spice Grid 52,Healthy,17.4,4.5,30,12255.47
+R20344,Bowl Theory 53,Mughlai,17.7,4.6,28,7694.91
+R20345,Spice Grid 54,Pizza,16.2,3.9,33,11360.03
+R20346,Green Fork 55,Biryani,16.6,3.2,43,12851.22
+R20347,Curry Cloud 56,Desserts,8.1,3.7,42,14706.5
+R20348,Urban Tadka 57,Healthy,11.7,4.3,36,11701.0
+R20349,Midnight Masala 58,North Indian,18.0,4.8,36,11539.29
+R20350,Pizza Pulse 59,Chinese,7.0,4.0,32,12145.86
+R20351,Green Fork 60,Pizza,7.0,3.8,24,8392.68
+R20352,Dragon Wok 61,Healthy,17.0,4.9,25,9185.86
+R20353,Spice Grid 62,Biryani,18.2,4.2,30,9850.35
+R20354,Dosa Dock 63,Healthy,17.1,3.6,23,8270.05
+R20355,Urban Tadka 64,Desserts,7.0,4.0,37,11642.42
+R20356,Kebab Circuit 65,Mughlai,28.3,4.4,21,6196.67
+R20357,Green Fork 66,Cafe,10.4,4.0,31,12251.84
+R20358,Neon Bites 67,South Indian,14.1,4.4,25,6947.85
+R20359,Curry Cloud 68,Desserts,11.4,3.4,43,12762.36
+R20360,Kebab Circuit 69,Desserts,26.8,3.5,34,11033.22
+R20361,Spice Grid 70,Mughlai,21.5,3.8,26,9654.28
+R20362,Bowl Theory 71,South Indian,16.2,3.9,26,9307.22
+R20363,Urban Tadka 72,North Indian,15.7,4.2,30,11121.94
+R20364,Noodle Nexus 73,Cafe,20.1,4.3,24,9277.93
+R20365,Cafe Nova 74,North Indian,11.5,4.9,44,12574.26
+R20366,Pizza Pulse 75,Street Food,21.3,3.8,34,11114.53
+R20367,Burger Byte 76,Biryani,15.7,3.9,43,15943.09
+R20368,Pizza Pulse 77,South Indian,22.1,3.8,22,8293.1
+R20369,Dragon Wok 78,Street Food,21.9,4.5,29,10957.19
+R20370,Kebab Circuit 79,Desserts,15.4,4.5,36,12326.36
+R20371,Urban Tadka 80,Burger,7.0,3.9,30,11400.75
+R20372,Sweet Loop 81,Pizza,17.5,4.8,38,12677.46
+R20373,Curry Cloud 82,Pizza,10.3,3.8,40,11765.04
+R20374,Curry Cloud 83,North Indian,19.5,4.4,28,8817.84
+R20375,Urban Tadka 84,Burger,17.5,4.6,38,13380.46
+R20376,Dragon Wok 85,Chinese,15.5,3.5,36,10571.33
+R20377,Bowl Theory 86,Biryani,11.2,4.3,31,11219.6
+R20378,Kebab Circuit 87,Chinese,26.1,3.0,46,14619.38
+R20379,Midnight Masala 88,Street Food,16.3,4.4,30,10323.68
+R20380,Pizza Pulse 89,Mughlai,33.1,3.6,27,9196.58
+R20381,Urban Tadka 90,Chinese,19.2,4.3,25,8362.92
+R20382,Dosa Dock 91,Cafe,21.1,4.3,33,10221.47
+R20383,Dosa Dock 92,South Indian,19.2,4.5,34,10828.84
+R20384,Dosa Dock 93,Pizza,21.0,4.4,36,11654.22
+R20385,Pizza Pulse 94,Chinese,25.6,4.1,32,8604.62
+R20386,Sweet Loop 95,Continental,25.6,3.9,34,13444.13
+R20387,Kebab Circuit 96,Pizza,8.4,4.0,29,10859.42
+R20388,Urban Tadka 0,Biryani,24.1,3.6,37,12504.13
+R20389,Pizza Pulse 1,Street Food,22.0,4.0,32,11943.57
+R20390,Kebab Circuit 2,Healthy,19.2,3.9,41,14184.25
+R20391,Neon Bites 3,Healthy,29.3,3.8,27,9803.59
+R20392,Pizza Pulse 4,Healthy,29.5,3.4,34,10360.85
+R20393,Noodle Nexus 5,Desserts,24.4,3.6,37,14886.75
+R20394,Dragon Wok 6,North Indian,15.7,2.9,29,9791.35
+R20395,Burger Byte 7,Healthy,11.8,3.9,36,11751.29
+R20396,Cafe Nova 8,Biryani,23.5,4.2,23,6633.58
+R20397,Midnight Masala 9,North Indian,27.2,3.0,19,6952.33
+R20398,Green Fork 10,Cafe,7.0,4.1,41,12914.29
+R20399,Spice Grid 11,North Indian,25.5,4.0,34,10209.75
+R20400,Burger Byte 12,North Indian,17.5,3.6,33,11954.65
+R20401,Dosa Dock 13,Pizza,8.1,3.9,32,8598.91
+R20402,Bowl Theory 14,Mughlai,21.8,4.4,33,9903.98
+R20403,Sweet Loop 15,Cafe,24.5,3.7,39,12814.4
+R20404,Neon Bites 16,North Indian,16.9,4.1,25,8925.94
+R20405,Kebab Circuit 17,Chinese,12.7,4.2,45,14281.11
+R20406,Kebab Circuit 18,Healthy,29.3,3.7,31,9572.48
+R20407,Sweet Loop 19,Desserts,15.0,4.4,43,14368.29
+R20408,Bowl Theory 20,Biryani,26.0,4.2,33,10106.82
+R20409,Urban Tadka 21,Pizza,9.9,4.0,27,8202.59
+R20410,Dosa Dock 22,Burger,21.5,4.9,27,8597.62
+R20411,Curry Cloud 23,North Indian,21.3,4.4,27,8988.84
+R20412,Sweet Loop 24,Healthy,24.2,3.4,47,15518.56
+R20413,Bowl Theory 25,Pizza,28.0,3.9,40,14272.41
+R20414,Dragon Wok 26,Mughlai,14.1,4.9,32,9428.74
+R20415,Midnight Masala 27,Desserts,22.1,3.7,25,8065.81
+R20416,Sweet Loop 28,Desserts,10.8,4.1,32,8917.79
+R20417,Burger Byte 29,Healthy,10.7,4.5,42,14580.59
+R20418,Dragon Wok 30,North Indian,15.5,4.3,26,7232.48
+R20419,Spice Grid 31,Biryani,21.5,4.4,36,13711.68
+R20420,Kebab Circuit 32,South Indian,29.1,4.3,28,7519.91
+R20421,Dragon Wok 33,Healthy,30.2,4.1,33,10760.34
+R20422,Spice Grid 34,Mughlai,16.9,3.7,40,12501.85
+R20423,Urban Tadka 35,Chinese,20.8,4.2,34,12052.48
+R20424,Cafe Nova 36,Mughlai,24.7,3.9,39,14110.55
+R20425,Sweet Loop 37,Biryani,23.6,3.9,34,11375.23
+R20426,Burger Byte 38,North Indian,18.0,4.6,23,6388.49
+R20427,Sweet Loop 39,Biryani,19.5,3.9,25,8384.49
+R20428,Sweet Loop 40,Continental,18.3,4.7,33,10531.86
+R20429,Kebab Circuit 41,South Indian,17.7,4.1,35,11850.13
+R20430,Bowl Theory 42,South Indian,17.0,4.0,21,6820.46
+R20431,Dragon Wok 43,Healthy,18.3,3.4,39,10938.4
+R20432,Green Fork 44,North Indian,16.6,4.9,32,9863.7
+R20433,Midnight Masala 45,North Indian,12.2,4.0,30,10020.48
+R20434,Kebab Circuit 46,North Indian,24.2,3.2,34,11132.73
+R20435,Green Fork 47,North Indian,22.1,4.4,36,12002.66
+R20436,Burger Byte 48,Chinese,30.3,4.0,29,9127.38
+R20437,Burger Byte 49,Pizza,21.2,3.7,25,7387.9
+R20438,Urban Tadka 50,Mughlai,16.5,4.4,41,13499.69
+R20439,Burger Byte 51,Mughlai,15.2,3.1,35,11022.77
+R20440,Spice Grid 52,Street Food,19.3,3.8,30,7974.24
+R20441,Neon Bites 53,Biryani,22.3,3.9,35,13204.28
+R20442,Dosa Dock 54,South Indian,17.5,4.4,42,14096.69
+R20443,Bowl Theory 55,North Indian,10.2,4.9,27,7684.55
+R20444,Pizza Pulse 56,Biryani,14.6,4.0,32,10676.56
+R20445,Pizza Pulse 57,Burger,19.1,4.2,41,12891.49
+R20446,Burger Byte 58,Chinese,23.4,4.9,31,10192.55
+R20447,Cafe Nova 59,Desserts,10.1,4.1,32,10139.27
+R20448,Dragon Wok 60,Mughlai,20.6,4.2,44,15122.13
+R20449,Green Fork 61,North Indian,20.3,3.6,26,8172.63
+R20450,Burger Byte 62,Street Food,16.3,4.8,35,12089.1
+R20451,Curry Cloud 63,North Indian,15.5,3.8,28,8560.75
+R20452,Curry Cloud 64,Cafe,14.6,4.2,28,11012.07
+R20453,Dragon Wok 65,Desserts,19.8,4.1,33,12044.74
+R20454,Sweet Loop 66,North Indian,25.8,4.1,39,14302.08
+R20455,Dragon Wok 67,Chinese,26.2,3.9,36,12296.55
+R20456,Noodle Nexus 68,Biryani,12.3,4.1,39,11352.03
+R20457,Sweet Loop 69,Mughlai,17.9,4.7,37,11874.84
+R20458,Pizza Pulse 70,Biryani,7.0,4.9,32,10704.91
+R20459,Midnight Masala 71,Mughlai,19.7,4.0,37,14248.28
+R20460,Noodle Nexus 72,Pizza,22.6,3.9,34,11311.72
+R20461,Dosa Dock 73,Cafe,28.4,3.7,36,11399.91
+R20462,Cafe Nova 74,Pizza,8.3,4.9,36,12909.26
+R20463,Cafe Nova 75,Desserts,12.5,4.1,26,10118.24
+R20464,Urban Tadka 76,Mughlai,19.9,4.5,36,11501.56
+R20465,Bowl Theory 77,Biryani,9.3,4.3,42,14181.04
+R20466,Noodle Nexus 78,North Indian,20.0,4.9,36,11685.47
+R20467,Midnight Masala 79,Burger,22.7,4.0,35,13207.52
+R20468,Noodle Nexus 80,Desserts,11.3,3.6,32,11618.41
+R20469,Pizza Pulse 81,Mughlai,19.8,4.8,41,12140.14
+R20470,Green Fork 82,Pizza,11.7,4.4,34,10384.66
+R20471,Dosa Dock 83,Continental,27.3,4.2,33,9383.32
+R20472,Neon Bites 84,Street Food,20.2,4.6,47,16211.56
+R20473,Midnight Masala 85,Healthy,15.2,4.2,38,14239.89
+R20474,Curry Cloud 86,North Indian,11.6,4.6,37,12923.79
+R20475,Bowl Theory 87,North Indian,21.3,4.1,31,10025.2
+R20476,Bowl Theory 88,Cafe,27.1,4.4,45,16881.21
+R20477,Urban Tadka 89,Healthy,14.4,4.3,37,12223.2
+R20478,Kebab Circuit 90,Burger,16.4,3.9,39,13281.79
+R20479,Green Fork 91,Continental,14.5,4.0,29,9722.41
+R20480,Curry Cloud 92,North Indian,28.3,3.9,25,8088.06
+R20481,Noodle Nexus 93,Healthy,7.5,4.2,29,7497.97
+R20482,Noodle Nexus 94,Desserts,26.7,3.9,32,9763.87
+R20483,Noodle Nexus 95,Mughlai,16.7,4.2,34,11859.59
+R20484,Dosa Dock 96,Healthy,18.6,4.2,41,12731.64
+R20485,Green Fork 0,South Indian,17.0,4.1,27,10643.48
+R20486,Kebab Circuit 1,North Indian,20.4,4.1,25,7655.73
+R20487,Urban Tadka 2,Continental,14.6,3.8,34,10967.51
+R20488,Spice Grid 3,Healthy,25.4,3.9,35,11439.97
+R20489,Neon Bites 4,Pizza,25.6,3.4,31,8757.73
+R20490,Pizza Pulse 5,Cafe,13.1,4.0,35,11490.0
+R20491,Burger Byte 6,Pizza,23.0,3.7,38,11914.71
+R20492,Kebab Circuit 7,Chinese,16.9,4.1,26,9362.2
+R20493,Burger Byte 8,Cafe,19.3,3.8,27,9507.37
+R20494,Pizza Pulse 9,Desserts,28.2,3.3,30,10562.21
+R20495,Cafe Nova 10,Continental,15.0,4.9,37,11532.71
+R20496,Green Fork 11,Continental,24.6,4.0,35,11092.58
+R20497,Bowl Theory 12,South Indian,21.7,4.6,38,12913.35
+R20498,Bowl Theory 13,Pizza,17.8,3.8,37,11832.08
+R20499,Noodle Nexus 14,Mughlai,21.2,4.7,36,11565.97
+R20500,Curry Cloud 15,South Indian,20.5,3.6,32,10676.72
+R20501,Midnight Masala 16,Burger,12.0,4.1,30,9597.67
+R20502,Burger Byte 17,South Indian,15.4,3.6,43,15117.5
+R20503,Dosa Dock 18,North Indian,12.7,4.9,34,10338.35
+R20504,Kebab Circuit 19,North Indian,17.3,4.0,35,14006.85
+R20505,Green Fork 20,Burger,27.1,4.4,37,12952.63
+R20506,Neon Bites 21,Mughlai,22.5,4.2,29,10235.83
+R20507,Burger Byte 22,Chinese,10.4,4.0,30,10279.15
+R20508,Bowl Theory 23,Biryani,17.4,4.2,41,14426.4
+R20509,Sweet Loop 24,Chinese,20.4,4.6,38,14122.18
+R20510,Dosa Dock 25,Healthy,23.5,4.3,32,10193.48
+R20511,Sweet Loop 26,North Indian,15.1,4.1,31,9752.6
+R20512,Noodle Nexus 27,Burger,11.6,4.2,25,8711.8
+R20513,Sweet Loop 28,Desserts,18.7,4.8,26,7705.94
+R20514,Green Fork 29,Chinese,22.4,3.9,25,8610.26
+R20515,Green Fork 30,Burger,20.4,3.3,32,10002.83
+R20516,Kebab Circuit 31,Continental,13.7,3.6,21,8305.35
+R20517,Pizza Pulse 32,Biryani,29.5,3.7,34,10727.11
+R20518,Pizza Pulse 33,North Indian,18.4,3.7,29,9636.1
+R20519,Pizza Pulse 34,North Indian,20.2,3.7,26,9195.28
+R20520,Kebab Circuit 35,Healthy,15.0,4.0,42,12597.31
+R20521,Green Fork 36,Continental,25.6,4.1,35,10763.95
+R20522,Pizza Pulse 37,Desserts,22.4,4.1,39,13517.99
+R20523,Dosa Dock 38,Cafe,20.9,3.8,47,16111.39
+R20524,Dragon Wok 39,Desserts,12.1,4.4,36,12071.03
+R20525,Kebab Circuit 40,Pizza,25.6,4.3,33,10359.92
+R20526,Green Fork 41,Biryani,23.5,4.7,31,9706.07
+R20527,Dragon Wok 42,Desserts,25.1,4.4,26,9065.7
+R20528,Pizza Pulse 43,Desserts,19.2,3.9,31,9461.46
+R20529,Bowl Theory 44,South Indian,18.6,4.5,31,9637.86
+R20530,Burger Byte 45,South Indian,17.9,4.2,34,12158.29
+R20531,Dragon Wok 46,Chinese,32.7,4.4,35,12725.82
+R20532,Urban Tadka 47,Pizza,15.7,4.3,37,14742.53
+R20533,Curry Cloud 48,Desserts,11.9,4.0,29,8999.63
+R20534,Green Fork 49,Healthy,16.8,4.1,26,7517.2
+R20535,Midnight Masala 50,Mughlai,15.8,4.0,36,13075.69
+R20536,Curry Cloud 51,Pizza,26.6,3.7,33,11192.62
+R20537,Midnight Masala 52,Continental,10.9,3.2,36,11242.23
+R20538,Dragon Wok 53,Pizza,15.6,3.8,33,12258.33
+R20539,Neon Bites 54,Pizza,20.1,4.1,31,10119.94
+R20540,Kebab Circuit 55,Mughlai,26.6,4.5,36,12781.85
+R20541,Burger Byte 56,Street Food,23.3,4.4,36,12271.09
+R20542,Midnight Masala 57,Street Food,28.7,3.9,30,9603.82
+R20543,Midnight Masala 58,North Indian,21.1,3.8,35,12101.14
+R20544,Curry Cloud 59,Pizza,17.8,4.0,27,9222.45
+R20545,Cafe Nova 60,Healthy,24.1,3.7,34,12027.12
+R20546,Urban Tadka 61,Mughlai,10.8,3.2,29,8643.67
+R20547,Urban Tadka 62,South Indian,8.7,3.5,23,7141.68
+R20548,Neon Bites 63,North Indian,24.9,4.6,46,16611.66
+R20549,Bowl Theory 64,South Indian,20.3,4.8,37,12008.77
+R20550,Sweet Loop 65,North Indian,24.8,4.3,23,7565.97
+R20551,Spice Grid 66,Pizza,13.9,4.0,35,14119.45
+R20552,Bowl Theory 67,Desserts,26.7,3.5,26,7818.51
+R20553,Spice Grid 68,North Indian,23.0,4.0,27,8900.54
+R20554,Kebab Circuit 69,Healthy,18.8,4.3,29,12449.74
+R20555,Green Fork 70,Burger,20.2,4.4,32,9742.1
+R20556,Burger Byte 71,Chinese,21.1,4.3,24,9932.45
+R20557,Noodle Nexus 72,Chinese,13.9,4.5,34,11868.64
+R20558,Cafe Nova 73,Street Food,16.7,4.8,31,10125.91
+R20559,Sweet Loop 74,Burger,21.0,3.9,26,8253.87
+R20560,Midnight Masala 75,Continental,16.4,4.9,20,6341.69
+R20561,Green Fork 76,Chinese,10.2,3.3,42,12688.47
+R20562,Kebab Circuit 77,Burger,20.8,3.8,32,11145.26
+R20563,Neon Bites 78,Street Food,24.0,4.1,28,10174.7
+R20564,Neon Bites 79,North Indian,25.4,4.3,30,10691.93
+R20565,Noodle Nexus 80,Pizza,22.2,4.0,34,10844.25
+R20566,Midnight Masala 81,Street Food,23.9,3.9,23,7245.08
+R20567,Dragon Wok 82,Chinese,24.9,4.9,26,8784.01
+R20568,Sweet Loop 83,Pizza,19.5,3.8,28,9398.26
+R20569,Sweet Loop 84,Cafe,7.0,3.7,28,8714.92
+R20570,Spice Grid 85,North Indian,26.0,4.7,32,10461.64
+R20571,Kebab Circuit 86,Burger,13.6,4.4,22,7518.92
+R20572,Noodle Nexus 87,Mughlai,12.2,4.5,31,8845.22
+R20573,Pizza Pulse 88,Mughlai,12.4,4.1,35,12786.76
+R20574,Dosa Dock 89,Chinese,33.9,3.5,34,11205.93
+R20575,Bowl Theory 90,North Indian,21.6,4.1,29,9290.27
+R20576,Cafe Nova 91,Mughlai,12.8,3.5,39,12379.22
+R20577,Neon Bites 92,Mughlai,14.9,4.1,25,9119.75
+R20578,Burger Byte 93,Biryani,19.0,4.3,40,13283.5
+R20579,Dragon Wok 94,Pizza,22.3,4.5,35,12829.64
+R20580,Kebab Circuit 95,South Indian,20.7,4.0,34,10146.15
+R20581,Burger Byte 96,North Indian,13.4,4.3,28,7779.72
+R20582,Curry Cloud 0,Mughlai,20.9,3.7,32,11014.37
+R20583,Curry Cloud 1,Street Food,15.3,4.4,20,6289.61
+R20584,Midnight Masala 2,Pizza,25.3,4.3,15,5264.92
+R20585,Spice Grid 3,Street Food,19.3,3.7,38,14233.35
+R20586,Burger Byte 4,Mughlai,14.4,4.3,35,12291.97
+R20587,Dosa Dock 5,Healthy,23.1,4.5,37,11451.99
+R20588,Sweet Loop 6,Street Food,21.3,4.1,32,10665.42
+R20589,Burger Byte 7,Pizza,16.2,3.7,30,8949.25
+R20590,Dosa Dock 8,Street Food,23.4,4.1,25,7552.16
+R20591,Spice Grid 9,North Indian,22.8,4.3,37,11073.51
+R20592,Sweet Loop 10,South Indian,26.2,3.7,30,10701.09
+R20593,Midnight Masala 11,Burger,23.3,3.7,24,7923.54
+R20594,Pizza Pulse 12,North Indian,17.7,4.2,36,10650.67
+R20595,Dragon Wok 13,Healthy,8.9,4.4,29,10761.94
+R20596,Neon Bites 14,South Indian,20.1,4.9,24,7490.54
+R20597,Burger Byte 15,Chinese,21.1,4.3,44,14280.59
+R20598,Pizza Pulse 16,Burger,19.3,3.6,37,12013.24
+R20599,Bowl Theory 17,North Indian,7.0,4.8,25,7946.71
+R20600,Bowl Theory 18,Biryani,23.1,4.5,37,12059.98
+R20601,Spice Grid 19,Biryani,13.5,3.3,26,8189.67
+R20602,Noodle Nexus 20,Street Food,23.1,3.7,28,10610.85
+R20603,Midnight Masala 21,Healthy,29.2,3.9,47,15670.45
+R20604,Noodle Nexus 22,South Indian,17.5,4.4,32,10661.06
+R20605,Green Fork 23,Desserts,21.6,3.1,40,12313.22
+R20606,Dragon Wok 24,Desserts,19.2,4.0,35,11327.54
+R20607,Green Fork 25,Pizza,22.2,4.3,26,7827.2
+R20608,Bowl Theory 26,North Indian,19.6,3.0,32,9311.16
+R20609,Urban Tadka 27,Burger,15.9,4.3,27,8441.74
+R20610,Noodle Nexus 28,Pizza,13.6,4.4,30,10668.6
+R20611,Kebab Circuit 29,Continental,28.5,3.7,21,6545.31
+R20612,Cafe Nova 30,Biryani,21.6,3.6,42,12864.97
+R20613,Noodle Nexus 31,Burger,24.0,3.7,30,10218.89
+R20614,Spice Grid 32,Chinese,21.4,3.0,38,13826.38
+R20615,Urban Tadka 33,Healthy,24.9,3.9,25,7692.75
+R20616,Curry Cloud 34,Street Food,13.6,4.1,37,12835.78
+R20617,Neon Bites 35,Chinese,19.5,3.6,32,9897.03
+R20618,Dragon Wok 36,North Indian,22.0,4.4,20,6892.24
+R20619,Spice Grid 37,Desserts,26.8,4.1,36,12076.69
+R20620,Midnight Masala 38,North Indian,35.0,4.1,24,7548.13
+R20621,Urban Tadka 39,North Indian,21.4,3.9,34,11489.41
+R20622,Bowl Theory 40,Desserts,15.0,4.3,32,10061.16
+R20623,Green Fork 41,North Indian,11.8,4.5,38,11523.48
+R20624,Midnight Masala 42,North Indian,13.6,3.9,36,12651.88
+R20625,Green Fork 43,Chinese,14.4,4.3,44,15826.07
+R20626,Noodle Nexus 44,Chinese,7.0,4.3,30,10040.63
+R20627,Dosa Dock 45,Street Food,14.9,4.2,37,12729.62
+R20628,Dosa Dock 46,Pizza,23.3,4.7,28,8700.01
+R20629,Pizza Pulse 47,Chinese,19.5,3.8,36,12449.1
+R20630,Cafe Nova 48,Desserts,17.4,3.9,37,13692.15
+R20631,Green Fork 49,Mughlai,9.3,3.8,38,13140.03
+R20632,Green Fork 50,Pizza,25.3,4.3,29,11092.25
+R20633,Urban Tadka 51,Desserts,22.1,3.9,36,12311.51
+R20634,Cafe Nova 52,Burger,18.9,3.8,29,9273.7
+R20635,Urban Tadka 53,Pizza,7.0,4.7,41,14101.05
+R20636,Burger Byte 54,North Indian,16.1,4.7,39,12444.22
+R20637,Neon Bites 55,Desserts,21.6,3.9,31,10141.5
+R20638,Dosa Dock 56,Pizza,18.8,3.5,20,6734.93
+R20639,Green Fork 57,Pizza,20.2,4.8,36,11940.05
+R20640,Green Fork 58,Burger,23.1,4.2,25,9032.01
+R20641,Cafe Nova 59,Biryani,19.9,4.2,33,11284.35
+R20642,Dosa Dock 60,Biryani,22.9,4.1,27,8789.79
+R20643,Kebab Circuit 61,Chinese,13.9,3.7,26,7406.4
+R20644,Neon Bites 62,Continental,11.7,3.9,36,9658.64
+R20645,Cafe Nova 63,Healthy,21.9,4.3,35,11657.0
+R20646,Cafe Nova 64,Pizza,23.1,3.9,32,9663.42
+R20647,Urban Tadka 65,Pizza,22.1,4.2,38,14106.64
+R20648,Kebab Circuit 66,Cafe,19.8,4.1,45,14197.0
+R20649,Pizza Pulse 67,Desserts,17.1,3.6,44,15747.22
+R20650,Burger Byte 68,Desserts,20.3,4.7,36,11641.97
+R20651,Green Fork 69,North Indian,21.3,4.3,31,11344.02
+R20652,Midnight Masala 70,North Indian,21.6,4.2,35,11579.29
+R20653,Noodle Nexus 71,Pizza,34.6,4.3,32,10404.91
+R20654,Dragon Wok 72,Mughlai,13.5,3.4,27,8537.03
+R20655,Burger Byte 73,Street Food,38.4,3.9,28,8789.09
+R20656,Spice Grid 74,Biryani,11.5,3.5,37,13002.17
+R20657,Neon Bites 75,Healthy,21.3,4.1,30,10308.2
+R20658,Midnight Masala 76,Continental,11.8,4.2,48,16870.94
+R20659,Curry Cloud 77,Continental,20.8,4.1,26,8589.03
+R20660,Bowl Theory 78,Chinese,24.9,4.5,26,8307.97
+R20661,Pizza Pulse 79,Biryani,19.2,3.5,32,9322.7
+R20662,Green Fork 80,Street Food,24.8,3.7,32,10682.45
+R20663,Midnight Masala 81,Pizza,16.5,4.2,25,7731.4
+R20664,Green Fork 82,Biryani,7.0,4.2,32,10797.21
+R20665,Neon Bites 83,Biryani,22.8,3.6,28,8104.38
+R20666,Neon Bites 84,South Indian,19.2,4.5,36,12035.83
+R20667,Spice Grid 85,North Indian,16.1,4.6,33,11716.45
+R20668,Neon Bites 86,Burger,16.5,4.2,33,9527.93
+R20669,Kebab Circuit 87,Street Food,21.4,3.5,34,11375.12
+R20670,Neon Bites 88,South Indian,14.1,4.1,37,12644.42
+R20671,Kebab Circuit 89,Street Food,21.3,4.2,36,10442.71
+R20672,Dosa Dock 90,Continental,26.1,3.9,43,14111.75
+R20673,Bowl Theory 91,Mughlai,31.4,4.6,29,8695.28
+R20674,Spice Grid 92,Burger,27.4,4.0,46,15505.37
+R20675,Urban Tadka 93,Continental,20.0,4.8,29,9914.25
+R20676,Urban Tadka 94,Burger,20.5,4.3,50,16268.97
+R20677,Burger Byte 95,Biryani,16.6,4.2,26,9361.92
+R20678,Noodle Nexus 96,Street Food,16.2,4.4,32,8960.14
+R20679,Dragon Wok 0,South Indian,24.2,4.6,33,10579.91
+R20680,Kebab Circuit 1,Continental,17.2,4.4,27,8150.25
+R20681,Midnight Masala 2,Chinese,21.2,4.0,37,12097.24
+R20682,Neon Bites 3,Pizza,13.2,3.8,42,15169.06
+R20683,Bowl Theory 4,Healthy,27.2,3.6,36,10567.46
+R20684,Burger Byte 5,Desserts,17.1,3.1,39,12210.91
+R20685,Green Fork 6,Chinese,25.5,4.1,45,15782.95
+R20686,Bowl Theory 7,Continental,14.8,3.9,32,11223.94
+R20687,Curry Cloud 8,South Indian,14.5,3.9,39,14426.28
+R20688,Kebab Circuit 9,North Indian,27.0,4.4,36,12727.9
+R20689,Pizza Pulse 10,Desserts,15.2,4.0,30,9265.58
+R20690,Kebab Circuit 11,North Indian,9.6,4.8,35,10730.47
+R20691,Cafe Nova 12,South Indian,12.8,3.8,27,8452.6
+R20692,Cafe Nova 13,Biryani,24.1,3.7,32,11859.87
+R20693,Green Fork 14,Biryani,23.6,3.6,30,11657.29
+R20694,Kebab Circuit 15,Cafe,14.4,4.3,29,9999.75
+R20695,Spice Grid 16,North Indian,15.2,4.5,35,11426.59
+R20696,Pizza Pulse 17,Healthy,23.0,3.8,43,11839.15
+R20697,Noodle Nexus 18,Desserts,26.9,3.6,37,13154.76
+R20698,Bowl Theory 19,Biryani,18.6,4.6,33,11453.98
+R20699,Burger Byte 20,Street Food,22.3,3.5,36,10637.47
+R20700,Burger Byte 21,Biryani,24.2,4.4,20,6930.43
+R20701,Dosa Dock 22,South Indian,31.9,3.8,29,9812.02
+R20702,Noodle Nexus 23,Mughlai,12.1,4.2,31,9369.56
+R20703,Dosa Dock 24,Healthy,15.0,4.5,26,8712.52
+R20704,Spice Grid 25,Pizza,16.0,4.2,31,11392.22
+R20705,Bowl Theory 26,Mughlai,24.0,3.9,22,8233.0
+R20706,Kebab Circuit 27,Street Food,17.5,4.6,35,11875.77
+R20707,Sweet Loop 28,South Indian,20.9,4.2,28,10211.74
+R20708,Kebab Circuit 29,Desserts,19.7,4.9,29,10406.87
+R20709,Cafe Nova 30,Chinese,19.0,3.4,33,9819.33
+R20710,Bowl Theory 31,Pizza,19.6,3.4,33,11808.23
+R20711,Neon Bites 32,South Indian,25.2,4.4,25,8599.4
+R20712,Curry Cloud 33,Biryani,13.2,4.0,22,7135.95
+R20713,Dosa Dock 34,Desserts,18.1,4.4,28,8917.1
+R20714,Sweet Loop 35,Biryani,11.7,3.6,32,10076.94
+R20715,Curry Cloud 36,North Indian,20.4,4.1,34,10559.19
+R20716,Urban Tadka 37,Chinese,17.8,4.2,30,9553.84
+R20717,Noodle Nexus 38,North Indian,25.4,3.8,28,11564.86
+R20718,Pizza Pulse 39,Burger,19.0,4.1,27,8785.11
+R20719,Kebab Circuit 40,South Indian,16.3,3.5,43,13628.18
+R20720,Pizza Pulse 41,North Indian,17.5,4.2,30,10792.26
+R20721,Urban Tadka 42,Biryani,29.3,4.6,34,11365.04
+R20722,Noodle Nexus 43,North Indian,9.6,3.6,31,10110.34
+R20723,Pizza Pulse 44,Burger,15.2,3.6,22,6754.1
+R20724,Spice Grid 45,Pizza,19.2,4.5,29,8771.85
+R20725,Urban Tadka 46,Healthy,15.2,3.6,45,14510.43
+R20726,Curry Cloud 47,Burger,21.9,4.4,31,8667.82
+R20727,Green Fork 48,Chinese,18.7,4.1,33,11131.45
+R20728,Kebab Circuit 49,North Indian,20.5,3.9,36,12428.76
+R20729,Sweet Loop 50,Pizza,19.7,4.6,26,8142.86
+R20730,Kebab Circuit 51,Pizza,18.4,4.4,32,11316.6
+R20731,Noodle Nexus 52,Pizza,11.3,4.2,34,11314.02
+R20732,Neon Bites 53,Street Food,20.1,3.2,38,13583.49
+R20733,Spice Grid 54,Biryani,8.4,4.3,40,13395.51
+R20734,Cafe Nova 55,Pizza,15.0,3.6,38,12465.48
+R20735,Curry Cloud 56,Mughlai,21.9,4.0,43,15459.35
+R20736,Dosa Dock 57,Street Food,26.1,4.1,24,7165.93
+R20737,Curry Cloud 58,South Indian,33.1,4.8,39,13500.3
+R20738,Dragon Wok 59,South Indian,16.4,4.0,33,11241.16
+R20739,Cafe Nova 60,North Indian,13.8,3.5,25,9003.44
+R20740,Burger Byte 61,Mughlai,22.1,4.6,26,7898.67
+R20741,Noodle Nexus 62,Burger,30.2,4.3,27,10909.99
+R20742,Kebab Circuit 63,South Indian,28.2,4.3,35,12106.19
+R20743,Dragon Wok 64,Pizza,12.8,4.6,29,9534.69
+R20744,Bowl Theory 65,Chinese,18.2,4.7,34,11626.48
+R20745,Midnight Masala 66,Healthy,24.1,3.7,24,8734.43
+R20746,Neon Bites 67,North Indian,24.5,3.5,45,16540.86
+R20747,Urban Tadka 68,South Indian,22.6,4.4,28,8412.13
+R20748,Burger Byte 69,North Indian,16.3,4.0,29,9514.91
+R20749,Spice Grid 70,Healthy,22.5,4.0,37,12360.08
+R20750,Burger Byte 71,Biryani,24.6,3.6,29,11075.99
+R20751,Spice Grid 72,Continental,13.4,4.3,36,10827.62
+R20752,Urban Tadka 73,South Indian,27.0,4.2,30,10848.77
+R20753,Cafe Nova 74,Chinese,25.0,4.0,33,11625.7
+R20754,Spice Grid 75,Chinese,14.5,3.5,38,13908.95
+R20755,Pizza Pulse 76,South Indian,24.5,4.5,32,11383.34
+R20756,Urban Tadka 77,Pizza,23.9,4.1,27,8399.85
+R20757,Spice Grid 78,Pizza,24.1,4.5,38,11855.77
+R20758,Bowl Theory 79,Biryani,28.5,3.3,38,13301.02
+R20759,Neon Bites 80,Pizza,18.9,4.1,37,13183.26
+R20760,Neon Bites 81,Mughlai,21.0,3.8,31,10612.54
+R20761,Kebab Circuit 82,Biryani,7.0,4.1,34,10319.95
+R20762,Neon Bites 83,Mughlai,25.7,4.4,37,11737.97
+R20763,Curry Cloud 84,Continental,25.1,4.2,30,9681.22
+R20764,Burger Byte 85,Desserts,27.1,4.1,31,11347.03
+R20765,Dragon Wok 86,North Indian,13.4,4.1,29,8553.2
+R20766,Noodle Nexus 87,Burger,24.8,3.5,32,12185.97
+R20767,Sweet Loop 88,Mughlai,25.1,3.7,31,10867.8
+R20768,Dragon Wok 89,Chinese,15.1,4.5,31,9139.7
+R20769,Curry Cloud 90,Pizza,25.3,3.9,28,8659.37
+R20770,Burger Byte 91,Pizza,21.8,4.5,29,9845.62
+R20771,Cafe Nova 92,Chinese,8.8,4.4,27,9315.2
+R20772,Curry Cloud 93,North Indian,22.5,4.4,42,14634.35
+R20773,Cafe Nova 94,Biryani,14.4,4.2,35,9793.6
+R20774,Dosa Dock 95,Desserts,8.9,3.9,24,8287.31
+R20775,Kebab Circuit 96,South Indian,21.2,4.0,35,10161.92
+R20776,Kebab Circuit 0,Biryani,18.6,4.3,34,9743.94
+R20777,Curry Cloud 1,Street Food,27.4,3.2,27,9035.03
+R20778,Cafe Nova 2,Pizza,20.1,4.5,36,11717.63
+R20779,Midnight Masala 3,North Indian,23.7,3.9,30,8317.33
+R20780,Spice Grid 4,Biryani,22.1,4.0,31,9813.68
+R20781,Sweet Loop 5,Pizza,25.1,4.0,32,11175.49
+R20782,Burger Byte 6,South Indian,13.7,4.0,32,10862.7
+R20783,Dragon Wok 7,North Indian,20.2,3.6,40,13145.98
+R20784,Curry Cloud 8,Continental,18.2,4.1,38,13605.56
+R20785,Urban Tadka 9,Continental,22.9,4.3,34,9974.58
+R20786,Spice Grid 10,Pizza,20.5,3.3,20,6341.16
+R20787,Sweet Loop 11,Healthy,15.3,3.6,24,8551.84
+R20788,Noodle Nexus 12,Burger,17.0,4.4,23,6928.48
+R20789,Green Fork 13,Mughlai,28.9,4.3,38,12280.99
+R20790,Noodle Nexus 14,Pizza,8.8,4.2,36,14027.92
+R20791,Green Fork 15,Burger,23.3,3.8,40,14372.71
+R20792,Cafe Nova 16,North Indian,26.4,4.3,29,10261.94
+R20793,Noodle Nexus 17,North Indian,22.5,3.6,39,13709.41
+R20794,Pizza Pulse 18,Continental,30.8,4.0,34,11085.28
+R20795,Sweet Loop 19,Pizza,24.6,3.6,32,10949.84
+R20796,Neon Bites 20,Chinese,21.3,4.0,26,8548.68
+R20797,Burger Byte 21,Biryani,16.2,3.7,39,13530.0
+R20798,Midnight Masala 22,Continental,21.4,4.3,37,14238.61
+R20799,Curry Cloud 23,Chinese,23.1,4.2,33,11330.1
+R20800,Dragon Wok 24,Biryani,19.0,3.8,30,10866.85
+R20801,Bowl Theory 25,Burger,14.5,4.5,33,11796.63
+R20802,Dosa Dock 26,Biryani,11.8,3.7,30,9688.03
+R20803,Neon Bites 27,Pizza,20.1,4.0,33,11454.73
+R20804,Neon Bites 28,Desserts,10.1,3.8,33,10620.01
+R20805,Dragon Wok 29,Street Food,16.2,4.3,33,10694.2
+R20806,Kebab Circuit 30,Healthy,7.0,4.3,38,12011.2
+R20807,Dosa Dock 31,North Indian,24.0,4.5,36,10326.16
+R20808,Spice Grid 32,Pizza,25.9,4.1,39,11777.49
+R20809,Cafe Nova 33,Mughlai,19.5,2.9,34,11866.69
+R20810,Spice Grid 34,Pizza,30.0,3.9,52,15715.41
+R20811,Green Fork 35,Healthy,27.1,4.6,44,15288.16
+R20812,Spice Grid 36,South Indian,21.9,3.9,41,13822.22
+R20813,Spice Grid 37,Continental,18.3,3.3,33,11107.91
+R20814,Burger Byte 38,Pizza,16.9,4.2,27,9081.94
+R20815,Green Fork 39,Street Food,22.4,4.2,24,6833.7
+R20816,Sweet Loop 40,Chinese,18.2,3.8,37,11424.99
+R20817,Kebab Circuit 41,Healthy,22.3,4.0,43,15314.7
+R20818,Urban Tadka 42,Biryani,22.7,3.7,26,8800.16
+R20819,Curry Cloud 43,South Indian,17.6,4.2,39,13259.89
+R20820,Spice Grid 44,Pizza,25.6,4.1,42,15126.81
+R20821,Pizza Pulse 45,North Indian,17.6,3.6,35,11715.15
+R20822,Sweet Loop 46,Chinese,19.1,4.0,43,13927.77
+R20823,Kebab Circuit 47,Biryani,13.1,3.8,42,13695.49
+R20824,Sweet Loop 48,Street Food,17.4,4.6,34,10631.3
+R20825,Sweet Loop 49,Mughlai,31.9,4.4,34,11041.72
+R20826,Curry Cloud 50,Healthy,13.6,4.0,31,9374.06
+R20827,Burger Byte 51,Chinese,21.6,4.1,35,12459.29
+R20828,Green Fork 52,Biryani,16.3,4.4,40,12702.91
+R20829,Urban Tadka 53,Pizza,7.0,4.0,40,13552.52
+R20830,Urban Tadka 54,Biryani,22.4,4.3,33,10410.24
+R20831,Spice Grid 55,Burger,15.7,4.6,23,8169.06
+R20832,Bowl Theory 56,Mughlai,20.9,3.9,34,11228.55
+R20833,Neon Bites 57,Biryani,24.9,4.7,30,10128.78
+R20834,Green Fork 58,North Indian,20.4,4.6,36,11153.03
+R20835,Burger Byte 59,North Indian,21.0,4.1,40,13261.9
+R20836,Dragon Wok 60,South Indian,13.8,3.9,40,14246.24
+R20837,Kebab Circuit 61,North Indian,23.2,4.1,30,9603.73
+R20838,Pizza Pulse 62,Chinese,17.9,4.0,30,11876.08
+R20839,Dosa Dock 63,North Indian,7.0,3.7,32,11829.74
+R20840,Spice Grid 64,North Indian,24.0,4.3,26,9823.0
+R20841,Cafe Nova 65,Healthy,25.8,3.7,38,14124.25
+R20842,Noodle Nexus 66,Cafe,27.9,3.9,34,12357.08
+R20843,Spice Grid 67,Biryani,32.0,3.9,38,12482.04
+R20844,Neon Bites 68,Biryani,23.6,3.5,39,11979.52
+R20845,Urban Tadka 69,Pizza,22.1,4.3,36,13191.11
+R20846,Kebab Circuit 70,Mughlai,25.5,4.0,31,11703.7
+R20847,Sweet Loop 71,South Indian,13.7,4.5,24,8485.47
+R20848,Green Fork 72,Burger,9.0,4.0,36,12954.22
+R20849,Sweet Loop 73,South Indian,16.1,3.9,37,11292.12
