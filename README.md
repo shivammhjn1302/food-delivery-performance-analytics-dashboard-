@@ -4,7 +4,7 @@
 
 ## 🚀 Project Overview
 
-An end-to-end analytics engineering and BI portfolio project for a food delivery platform similar to Zomato, Swiggy, Uber Eats, or DoorDash. The project simulates a real business environment with messy raw data, data cleaning, KPI engineering, SQL analysis, executive reporting, and an interactive Streamlit dashboard.
+An end-to-end analytics engineering and BI portfolio project for a food delivery platform similar to Zomato, Swiggy, Uber Eats, or DoorDash. The project simulates a real business environment with messy raw data, data cleaning, KPI engineering, SQL analysis, executive reporting, and an interactive Next.js dashboard.
 
 ## 🎯 Business Problem
 
@@ -19,12 +19,12 @@ Food delivery companies need to optimize delivery speed, reduce cancellations, i
 ## 🏗️ Architecture
 
 ```text
-Synthetic Raw Data → Cleaning & Feature Engineering → Processed KPIs → SQL Analysis → Streamlit Dashboard → Executive Reports
+Synthetic Analytics Data → Processed KPIs → SQL Analysis → Next.js Dashboard → Executive Reports
 ```
 
 ## 🧰 Tech Stack
 
-Python, Pandas, NumPy, SQL, Streamlit, Plotly, Matplotlib, Seaborn, Excel, Git/GitHub, Power BI dashboard mockup.
+Next.js, React, TypeScript, Recharts, SQL, CSV analytics datasets, Excel, Git/GitHub, and BI dashboard mockups.
 
 ## 📦 Dataset Description
 
@@ -115,31 +115,33 @@ food-delivery-performance-analytics-dashboard/
 ## ⚙️ Installation
 
 ```bash
-git clone https://github.com/shivammhjn1302/food-delivery-performance-analytics-dashboard.git
-cd food-delivery-performance-analytics-dashboard
-python3 -m venv .venv
-source .venv/bin/activate
-pip install -r requirements.txt
+git clone https://github.com/shivammhjn1302/food-delivery-performance-analytics-dashboard-.git
+cd food-delivery-performance-analytics-dashboard-
+npm install
 ```
 
-## ▶️ Run Streamlit App Locally
+## ▶️ Run Next.js Dashboard Locally
 
 ```bash
-streamlit run streamlit_app/app.py
+npm run dev
 ```
 
-## ☁️ Deploy Streamlit
-
-1. Push this repo to GitHub.
-2. Go to [share.streamlit.io](https://share.streamlit.io/).
-3. Select the repository.
-4. Set main file path:
+Open:
 
 ```text
-streamlit_app/app.py
+http://localhost:3000
 ```
 
-5. Deploy.
+## ☁️ Deploy on Vercel
+
+This is a pure Next.js project and is ready for Vercel.
+
+1. Go to [vercel.com](https://vercel.com).
+2. Import the GitHub repo.
+3. Framework preset: **Next.js**.
+4. Build command: `npm run build`.
+5. Output directory: `.next`.
+6. Deploy.
 
 ## 🧾 SQL Examples
 
@@ -182,7 +184,7 @@ This project demonstrates skills required for Data Analyst, BI Developer, Produc
 - KPI design and business storytelling
 - SQL joins, CTEs, window functions, ranking, retention analysis
 - Executive dashboarding
-- Streamlit app development
+- Next.js dashboard development
 - Analytical recommendations with business impact
 
 ---

@@ -19,3 +19,8 @@ venv/
 
 # Power BI temp
 *.pbitmp
+
+node_modules/
+.next/
+out/
+*.tsbuildinfo
