@@ -2,6 +2,12 @@
 
 ![Dashboard Mockup](dashboard/dashboard_mockup.png)
 
+> Premium dark SaaS analytics dashboard for food delivery operations, customer behavior, restaurant performance, delivery efficiency, and executive decision-making.
+
+## Hero Section
+
+**Food Delivery Intelligence for Faster Decisions** — a recruiter-ready BI case study that turns messy order, customer, restaurant, and delivery-partner data into operational KPIs, executive visuals, and business recommendations.
+
 ## 🚀 Project Overview
 
 An end-to-end analytics engineering and BI portfolio project for a food delivery platform similar to Zomato, Swiggy, Uber Eats, or DoorDash. The project simulates a real business environment with messy raw data, data cleaning, KPI engineering, SQL analysis, executive reporting, and an interactive Next.js dashboard.
@@ -132,7 +138,7 @@ Open:
 http://localhost:3000
 ```
 
-## ☁️ Deploy on Vercel
+## ☁️ Deployment Guide
 
 This is a pure Next.js project and is ready for Vercel.
 
@@ -142,6 +148,19 @@ This is a pure Next.js project and is ready for Vercel.
 4. Build command: `npm run build`.
 5. Output directory: `.next`.
 6. Deploy.
+
+## SEO & Production Stability
+
+- App Router metadata includes title templates, description, keywords, OpenGraph, Twitter card data, robots policy, and dark viewport theme.
+- `next.config.ts` disables the powered-by header, enables compression, and pins `outputFileTracingRoot` to prevent multi-lockfile build ambiguity.
+- Dashboard includes explicit loading and error states for `dashboard-data.json` so production failures are visible and recruiter-friendly.
+
+## Performance Notes
+
+- Static Next.js route with client-side dashboard data hydration.
+- Recharts is isolated to the dashboard page; no unnecessary global UI dependencies.
+- Responsive chart containers preserve layout stability across desktop and mobile.
+- Mobile-first CSS reduces navigation complexity and keeps KPI cards readable on small screens.
 
 ## 🧾 SQL Examples
 
