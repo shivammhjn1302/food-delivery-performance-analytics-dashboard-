@@ -28,7 +28,7 @@ export const metadata: Metadata = {
     description:
       'Recruiter-ready food delivery BI platform with executive KPIs, customer analytics, delivery operations, and restaurant insights.',
     url: siteUrl,
-    siteName: 'Food Delivery Analytics Command Center',
+    siteName: 'Food Delivery Analytics Boardroom',
     locale: 'en_IN',
     type: 'website',
   },
@@ -44,7 +44,7 @@ export const metadata: Metadata = {
 };
 
 export const viewport: Viewport = {
-  themeColor: '#020617',
+  themeColor: '#160d07',
   colorScheme: 'dark',
 };
 

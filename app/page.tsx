@@ -27,7 +27,7 @@ type DashboardData = {
   insights: Array<{ title: string; observation: string; impact: string; recommendation: string }>;
 };
 
-const colors = ['#3b82f6', '#8b5cf6', '#22c55e', '#f59e0b', '#06b6d4', '#ec4899'];
+const colors = ['#c8a45d', '#1f4d36', '#6d2b21', '#8a6534', '#e7d3a1', '#4a2d1a'];
 
 function money(value: number) {
   if (value >= 1_000_000) return `₹${(value / 1_000_000).toFixed(2)}M`;
@@ -48,7 +48,7 @@ function StateCard({ title, message }: { title: string; message: string }) {
   return (
     <main className="state-shell">
       <section className="state-card" role="status" aria-live="polite">
-        <p className="eyebrow">Analytics Command Center</p>
+        <p className="eyebrow">Analytics Boardroom</p>
         <h1>{title}</h1>
         <p>{message}</p>
       </section>
@@ -140,15 +140,15 @@ export default function Home() {
         <ResponsiveContainer width="100%" height={330}>
           <AreaChart data={data.monthly}>
             <defs>
-              <linearGradient id="rev" x1="0" y1="0" x2="0" y2="1"><stop offset="5%" stopColor="#3b82f6" stopOpacity={0.82}/><stop offset="95%" stopColor="#3b82f6" stopOpacity={0}/></linearGradient>
-              <linearGradient id="profit" x1="0" y1="0" x2="0" y2="1"><stop offset="5%" stopColor="#8b5cf6" stopOpacity={0.7}/><stop offset="95%" stopColor="#8b5cf6" stopOpacity={0}/></linearGradient>
+              <linearGradient id="rev" x1="0" y1="0" x2="0" y2="1"><stop offset="5%" stopColor="#c8a45d" stopOpacity={0.82}/><stop offset="95%" stopColor="#c8a45d" stopOpacity={0}/></linearGradient>
+              <linearGradient id="profit" x1="0" y1="0" x2="0" y2="1"><stop offset="5%" stopColor="#1f4d36" stopOpacity={0.72}/><stop offset="95%" stopColor="#1f4d36" stopOpacity={0}/></linearGradient>
             </defs>
-            <CartesianGrid strokeDasharray="3 3" stroke="rgba(148,163,184,.16)" />
-            <XAxis dataKey="month" stroke="#94a3b8" tick={{fontSize: 11}} interval={2} />
-            <YAxis stroke="#94a3b8" tickFormatter={(v) => `₹${Math.round(Number(v)/100000)}L`} />
-            <Tooltip contentStyle={{ background: '#0f172a', border: '1px solid #1e293b', color: '#f8fafc', borderRadius: 14 }} formatter={(v) => money(Number(v))} />
-            <Area type="monotone" dataKey="revenue" stroke="#3b82f6" fill="url(#rev)" strokeWidth={3} />
-            <Area type="monotone" dataKey="profit" stroke="#8b5cf6" fill="url(#profit)" strokeWidth={2} />
+            <CartesianGrid strokeDasharray="3 3" stroke="rgba(200,164,93,.18)" />
+            <XAxis dataKey="month" stroke="#b9a98d" tick={{fontSize: 11}} interval={2} />
+            <YAxis stroke="#b9a98d" tickFormatter={(v) => `₹${Math.round(Number(v)/100000)}L`} />
+            <Tooltip contentStyle={{ background: '#2a170c', border: '1px solid rgba(200,164,93,.34)', color: '#f7f0df', borderRadius: 14 }} formatter={(v) => money(Number(v))} />
+            <Area type="monotone" dataKey="revenue" stroke="#c8a45d" fill="url(#rev)" strokeWidth={3} />
+            <Area type="monotone" dataKey="profit" stroke="#1f4d36" fill="url(#profit)" strokeWidth={2} />
           </AreaChart>
         </ResponsiveContainer>
       </section>
@@ -158,10 +158,10 @@ export default function Home() {
           <div className="panel-head"><h2>City Revenue</h2><span>Top markets</span></div>
           <ResponsiveContainer width="100%" height={320}>
             <BarChart data={data.city} layout="vertical" margin={{ left: 30 }}>
-              <CartesianGrid strokeDasharray="3 3" stroke="rgba(148,163,184,.14)" />
-              <XAxis type="number" stroke="#94a3b8" hide />
-              <YAxis type="category" dataKey="Delivery_City" stroke="#94a3b8" width={90} />
-              <Tooltip contentStyle={{ background: '#0f172a', border: '1px solid #1e293b', borderRadius: 14 }} formatter={(v) => money(Number(v))} />
+              <CartesianGrid strokeDasharray="3 3" stroke="rgba(200,164,93,.16)" />
+              <XAxis type="number" stroke="#b9a98d" hide />
+              <YAxis type="category" dataKey="Delivery_City" stroke="#b9a98d" width={90} />
+              <Tooltip contentStyle={{ background: '#2a170c', border: '1px solid rgba(200,164,93,.34)', borderRadius: 14 }} formatter={(v) => money(Number(v))} />
               <Bar dataKey="Revenue" radius={[0, 10, 10, 0]}>{data.city.map((_, i) => <Cell key={i} fill={colors[i % colors.length]} />)}</Bar>
             </BarChart>
           </ResponsiveContainer>
@@ -171,12 +171,12 @@ export default function Home() {
           <div className="panel-head"><h2>Delivery Time by Traffic</h2><span>Delay root cause</span></div>
           <ResponsiveContainer width="100%" height={320}>
             <LineChart data={data.traffic}>
-              <CartesianGrid strokeDasharray="3 3" stroke="rgba(148,163,184,.14)" />
-              <XAxis dataKey="Traffic_Level" stroke="#94a3b8" />
-              <YAxis stroke="#94a3b8" />
-              <Tooltip contentStyle={{ background: '#0f172a', border: '1px solid #1e293b', borderRadius: 14 }} />
-              <Line type="monotone" dataKey="AvgDelivery" stroke="#3b82f6" strokeWidth={4} dot={{ r: 5, fill: '#8b5cf6' }} />
-              <Line type="monotone" dataKey="AvgDelay" stroke="#f59e0b" strokeWidth={3} />
+              <CartesianGrid strokeDasharray="3 3" stroke="rgba(200,164,93,.16)" />
+              <XAxis dataKey="Traffic_Level" stroke="#b9a98d" />
+              <YAxis stroke="#b9a98d" />
+              <Tooltip contentStyle={{ background: '#2a170c', border: '1px solid rgba(200,164,93,.34)', borderRadius: 14 }} />
+              <Line type="monotone" dataKey="AvgDelivery" stroke="#c8a45d" strokeWidth={4} dot={{ r: 5, fill: '#1f4d36' }} />
+              <Line type="monotone" dataKey="AvgDelay" stroke="#6d2b21" strokeWidth={3} />
             </LineChart>
           </ResponsiveContainer>
         </div>
