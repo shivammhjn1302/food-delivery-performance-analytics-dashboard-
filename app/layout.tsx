@@ -28,14 +28,14 @@ export const metadata: Metadata = {
     description:
       'Recruiter-ready food delivery BI platform with executive KPIs, customer analytics, delivery operations, and restaurant insights.',
     url: siteUrl,
-    siteName: 'Food Delivery Analytics Boardroom',
+    siteName: 'Food Delivery Analytics Portfolio',
     locale: 'en_IN',
     type: 'website',
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Food Delivery Performance Analytics Dashboard',
-    description: 'Premium operations analytics dashboard built with Next.js, TypeScript, and Recharts.',
+    description: 'Professional operations analytics dashboard built with Next.js, TypeScript, and Recharts.',
   },
   robots: {
     index: true,
@@ -44,8 +44,8 @@ export const metadata: Metadata = {
 };
 
 export const viewport: Viewport = {
-  themeColor: '#160d07',
-  colorScheme: 'dark',
+  themeColor: '#f5f7fb',
+  colorScheme: 'light',
 };
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
