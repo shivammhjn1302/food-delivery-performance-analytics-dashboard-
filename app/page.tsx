@@ -108,14 +108,14 @@ export default function Home() {
       <section id="top" className="hero">
         <div>
           <p className="eyebrow">Operations BI · Customer Analytics · Delivery Performance</p>
-          <h1>Food delivery intelligence for faster decisions.</h1>
+          <h1>Food delivery analytics for operational clarity.</h1>
           <p>
             A production-style analytics dashboard built from 25,000+ delivery orders, combining KPI modeling,
             SQL analysis, Python data cleaning, business recommendations, and Vercel-ready executive visuals.
           </p>
         </div>
         <aside className="hero-card" aria-label="Executive signal summary">
-          <span className="status-pill">Live portfolio case study</span>
+          <span className="status-pill">Portfolio case study</span>
           {executiveSignal.map((item) => (
             <div key={item.label}>
               <span>{item.label}</span>
