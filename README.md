@@ -2,15 +2,15 @@
 
 ![Dashboard Mockup](dashboard/dashboard_mockup.png)
 
-> Premium dark SaaS analytics dashboard for food delivery operations, customer behavior, restaurant performance, delivery efficiency, and executive decision-making.
+> A Zomato/Swiggy-inspired operations dashboard for food delivery performance, customer behavior, restaurant health, delivery efficiency, and executive decision-making.
 
 ## Hero Section
 
-**Food Delivery Intelligence for Faster Decisions** — a recruiter-ready BI case study that turns messy order, customer, restaurant, and delivery-partner data into operational KPIs, executive visuals, and business recommendations.
+**Zomato/Swiggy-style food delivery intelligence for faster decisions** — a recruiter-ready BI case study that turns messy order, customer, restaurant, and delivery-partner data into operational KPIs, executive visuals, and business recommendations.
 
 ## 🚀 Project Overview
 
-An end-to-end analytics engineering and BI portfolio project for a food delivery platform similar to Zomato, Swiggy, Uber Eats, or DoorDash. The project simulates a real business environment with messy raw data, data cleaning, KPI engineering, SQL analysis, executive reporting, and an interactive Next.js dashboard.
+An end-to-end analytics engineering and BI portfolio project for a food delivery platform inspired by Zomato, Swiggy, Uber Eats, and DoorDash. The project simulates a real business environment with messy raw data, data cleaning, KPI engineering, SQL analysis, executive reporting, and an interactive Next.js dashboard.
 
 ## 🎯 Business Problem
 
